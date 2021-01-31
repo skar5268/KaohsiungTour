@@ -27,7 +27,7 @@ body{
     background-image: url(../img/Hero.png);
     background-size: cover;
     background-position: center;
-    width: 100%;
+    max-width: 1920px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -217,9 +217,7 @@ section{
             .phoneClass:hover{
                 color: #559AC8;
             }
-            .addressClass:hover{
-                color: #FFA782;
-            }
+
         }
         li:nth-last-child(1){
             img{

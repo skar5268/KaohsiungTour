@@ -146,7 +146,7 @@ function dataList() {
                             <p class='openTimeClass'>${data[i].Opentime}</p>
                         </li>
                         <li class="d-flex align-item-center"><img src="img/icons_pin.png" alt="">
-                            <a class="addressClass" href="https://www.google.com.tw/maps/place/${data[i].Add}" target="_blank"">${data[i].Add}</a>
+                            <p class="addressClass">${data[i].Add}</p>
                         </li>
                         <li class="d-flex align-item-center"><img src="img/icons_phone.png" alt="">
                         <a class="phoneClass" href="tel:+${data[i].Tel}">${data[i].Tel}</a>
